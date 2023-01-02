@@ -1,0 +1,71 @@
+:root {
+    --superhero: 'Bangers', cursive;
+    --fantasy: 'MedievalSharp', cursive;
+    --space: 'Orbitron', sans-serif;
+    --military: 'Black Ops One', cursive;
+    --romantic: 'La Belle Aurore', cursive;
+    --scary: 'Creepster', cursive;
+    --cowboy: 'Rye', cursive;
+    --regular:
+    --text: #222222;
+    
+    --light: var(--background);
+    --dark: var(--text);
+}
+
+
+body, html {
+    margin: 0;
+    padding: 10px;
+    background:rgb(204, 190, 122);
+    color:rgb(37, 0, 0);
+    font:var(--space)
+}
+
+img {
+    width: 200px;
+    border-radius: calc(var(--image) * 2);
+    border: 3px solid rgb(0, 0, 0);
+}
+
+a {
+    color: var(--regular);
+}
+
+input {
+    display: block;
+    margin: 20px 0 0;
+    width: 160px;
+    box-sizing: border-box;
+    padding: 4px 8px;
+    border-width: 1px; 
+    border-style: solid;
+    border-color: black;
+    color: red;
+    background: white;
+    border-radius: var(--image);
+    font-family: var(--font);
+}
+
+::placeholder {
+    color: red;
+    background: white;
+}
+
+button {
+    border-radius: var(--image);
+    padding: 5px 10px;
+    border: none;
+    background: blue;
+    color: white;
+    font-weight: bold;
+    box-sizing: border-box;
+    display: block;
+    margin: 8px 0;
+    cursor: pointer;
+    font-family: var(--font);
+    width: 160px;
+}
+.imgg{
+     width: 120px;
+}
